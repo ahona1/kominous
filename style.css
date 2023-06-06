@@ -14,7 +14,9 @@ html{
     top:0px;
     left: 0px;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 #navbar::before{
     content: " ";
     position: absolute;
@@ -162,7 +164,7 @@ html{
     padding: 34PX;
 }
 #clients img{
-    height:124px;
+    height: 124px;
 }
 #contact{
     position: relative;
